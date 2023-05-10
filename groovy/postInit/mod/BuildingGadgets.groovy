@@ -26,4 +26,41 @@ crafting.addShaped('buildinggadgets:destructiontool', item('buildinggadgets:dest
     [ore('plateIron'), ore('circuitLv'), ore('plateIron')]
 ])
 
-// have to do template and paste stuff
+// item('buildinggadgets:templatemanager')
+
+// Template Manager
+crafting.replaceShaped('buildinggadgets:templatemanager', item('buildinggadgets:templatemanager'), [
+    [ore('plateIron'), metaitem('electric.motor.lv'), ore('plateIron')],
+    [ore('plateIron'), ore('paper'), ore('plateIron')],
+    [ore('plateIron'), ore('circuitLv'), ore('plateIron')]
+])
+ 
+// Construction Block Powder
+crafting.remove('buildinggadgets:constructionblockpowder');
+
+recipemap('mixer').recipeBuilder()
+		.inputs(ore('dustSand')	 * 1)
+		.fluidInputs(fluid('concrete') * 4000)
+		.outputs(item('buildinggadgets:constructionblockpowder') * 5)
+		.EUt(7)
+		.duration(200)
+		.buildAndRegister()
+
+// Construction Paste Containers
+crafting.replaceShaped('buildinggadgets:constructionpastecontainer', item('buildinggadgets:constructionpastecontainer'), [
+    [ore('toolHammer'), ore('plateSteel'), ore('toolScrewdriver')],
+    [ore('plateSteel'), ore('blockGlass'), ore('plateSteel')],
+    [ore('plateSteel'), ore('plateSteel'), ore('plateSteel')]
+])
+
+crafting.replaceShaped('buildinggadgets:constructionpastecontainert2', item('buildinggadgets:constructionpastecontainert2'), [
+    [ore('toolHammer'), ore('plateAluminium'), ore('toolScrewdriver')],
+    [ore('plateAluminium'), ore('blockGlass'), ore('plateAluminium')],
+    [ore('plateAluminium'), ore('plateAluminium'), ore('plateAluminium')]
+])
+
+crafting.replaceShaped('buildinggadgets:constructionpastecontainert3', item('buildinggadgets:constructionpastecontainert3'), [
+    [ore('toolHammer'), ore('plateStainlessSteel'), ore('toolScrewdriver')],
+    [ore('plateStainlessSteel'), ore('blockGlass'), ore('plateStainlessSteel')],
+    [ore('plateStainlessSteel'), ore('plateStainlessSteel'), ore('plateStainlessSteel')]
+])
