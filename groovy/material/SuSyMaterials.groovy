@@ -214,7 +214,7 @@ class SuSyMaterials {
         public static Material CeramicThickFilmPaste;
         public static Material BoraxElectrolyte;
         public static Material FerroelectricCeramicBinding;
-        public static Material ConfiguredCircuitOne;
+        public static Material DirtyMolecularSieve;
 
         // Petrochem Materials
 
@@ -517,9 +517,6 @@ class SuSyMaterials {
         public static Material BariumTitanate;
         public static Material HafniumTetrachloride;
         public static Material ZirconiumTetrachloride;
-        public static Material Bismanol;
-        public static Material NeodymiumAlloy;
-        public static Material SamariumAlloy;
 
         // Second Degree Materials
 
@@ -571,9 +568,6 @@ class SuSyMaterials {
         public static Material GoldEluteSolution;
         public static Material PotashSolution;
         public static Material PotassiumSulfateSolution;
-        public static Material BismanolMagnetic;
-        public static Material NeodymiumAlloyMagnetic;
-        public static Material SamariumAlloyMagnetic;
 
         // Organic Chemistry Materials
 
@@ -765,7 +759,42 @@ class SuSyMaterials {
         
         public static Material EarthlikeAir;
         public static Material HotHighPressureSteam;
-        
+        public static Material CompressedAir;
+        public static Material ChilledAir;
+        public static Material PurifiedAir;
+        public static Material BoostedAir;
+        public static Material ColdWater;
+        public static Material WasteGaseousNitrogen;
+        public static Material PurfiedWasteGaseousNitrogen;
+        public static Material ChilledBoostedAir;
+        public static Material PartiallyLiquifiedAir;
+        public static Material GaseousAirFeedstock;
+        public static Material LiquidAirFeedstock;
+        public static Material ChillyWasteGaseousNitrogen;
+        public static Material SubcooledLiquidNitrogen;
+        public static Material ColdWasteGaseousNitrogen;
+        public static Material UntreatedLiquidOxygen;
+        public static Material UntreatedLiquidNitrogen;
+        public static Material OxygenRichLiquid;
+        public static Material OxygenRichGas;
+        public static Material NitrogenRichGas;
+        public static Material ArgonRichGas;
+        public static Material OxygenRichVapor;
+        public static Material CrudeArgonVapor;
+        public static Material LiquidCrudeArgon;
+        public static Material SubcooledOxygenRichLiquid;
+        public static Material CrudeLiquidKrypton;
+        public static Material RareGasRichFraction;
+        public static Material CondensedRareGasRichFraction;
+        public static Material CrudeNeonVapor;
+        public static Material GaseousCrudeKrypton;
+        public static Material ColdLiquidOxygen;
+        public static Material CompressedCrudeNeon;
+        public static Material PartiallyLiquefiedCrudeNeon;
+        public static Material GaseousCrudeNeon;
+        public static Material LiquidCrudeNeon;
+        public static Material ColdGaseousNitrogen;
+
         public static void init() {                
                 ElementMaterials.register();
                 IsotopeMaterials.register();

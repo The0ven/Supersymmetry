@@ -1612,26 +1612,5 @@ public class FirstDegreeMaterials{
                 .components(Zirconium, 1, Chlorine, 4)
                 .colorAverage()
                 .build()
-
-        Bismanol = new Material.Builder(8337, "bismanol")
-                .ingot()
-                .color(0x52704c).iconSet(METALLIC)
-                .flags(STD_METAL, GENERATE_ROD)
-                .components(Bismuth, 1, Manganese, 1)
-                .build();
-
-        NeodymiumAlloy = new Material.Builder(8338, "neodymium_alloy")
-                .ingot()
-                .color(0x211a1a).iconSet(METALLIC)
-                .flags(STD_METAL, GENERATE_ROD)
-                .components(Neodymium, 2, Iron, 14, Boron, 1)
-                .build();
-
-        SamariumAlloy = new Material.Builder(8339, "samarium_alloy")
-                .ingot()
-                .color(0xcadea6).iconSet(METALLIC)
-                .flags(STD_METAL, GENERATE_ROD)
-                .components(Samarium, 1, Cobalt, 5)
-                .build();
     }
 }

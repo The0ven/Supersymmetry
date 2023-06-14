@@ -972,6 +972,43 @@ material.neodymium_alloy_magnetic=Magnetic Neodymium Alloy
 material.samarium_alloy_magnetic=Magnetic Samarium Alloy
 material.configured_circuit_one=Fluidized Configured Circuit (1)
 
+material.compressed_air=Compressed Air
+material.chilled_air=Chilled Air
+material.purified_air=Purified Air
+material.boosted_air=Boosted Air
+material.cold_water=Cold Water
+material.waste_gaseous_nitrogen=Waste Gaseous Nitrogen
+material.purified_waste_gaseous_nitrogen=Purfied Waste Gaseous Nitrogen
+material.chilled_boosted_air=Chilled Boosted Air
+material.partially_liquified_air=Partially Liquified Air
+material.gaseous_air_feedstock=Gaseous Air Feedstock
+material.liquid_air_feedstock=Liquid Air Feedstock
+material.chilly_waste_gaseous_nitrogen=Chilly Waste Gaseous Nitrogen
+material.subcooled_liquid_nitrogen=Subcooled Liquid Nitrogen
+material.cold_waste_gaseous_nitrogen=Cold Waste Gaseous Nitrogen
+material.untreated_liquid_oxygen=Untreated Liquid Oxygen
+material.untreated_liquid_nitrogen=Untreated Liquid Nitrogen
+material.oxygen_rich_liquid=Oxygen Rich Liquid
+material.oxygen_rich_gas=Oxygen Rich Gas
+material.nitrogen_rich_gas=Nitrogen Rich Gas
+material.argon_rich_gas=Argon Rich Gas
+material.oxygen_rich_vapor=Oxygen Rich Vapor
+material.crude_argon_vapor=Crude Argon Vapor
+material.liquid_crude_argon=Liquid Crude Argon
+material.subcooled_oxygen_rich_liquid=Subcooled Oxygen-Rich Liquid
+material.crude_liquid_krypton=Crude Liquid Krypton
+material.rare_gas_rich_fraction=Rare Gas-Rich Fraction
+material.condensed_rare_gas_rich_fraction=Condensed Rare Gas-Rich Fraction
+material.crude_neon_vapor=Crude Neon Vapor
+material.gaseous_crude_krypton=Gaseous Crude Krypton
+material.cold_liquid_oxygen=Cold Liquid Oxygen
+material.compressed_crude_neon=Compressed Crude Neon
+material.partially_liquefied_crude_neon=Partially Liquefied Crude Neon
+material.gaseous_crude_neon=Gaseous Crude Neon
+material.liquid_crude_neon=Liquid Crude Neon
+material.dirty_molecular_sieve=Dirty Molecular Sieve
+material.cold_gaseous_nitrogen=Cold Gaseous Nitrogen
+
 # Isotopes
 
 # GregTech RecipeMaps

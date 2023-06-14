@@ -29,13 +29,16 @@ class ICryoGas{
         //this is needed for some reason, otherwise it will error
     }
 
-    public ICryoGas(String gas_normal, String gas_hot_hp, String gas_hp, String gas_cold_hp, String gas_liquid) {
+    public ICryoGas(String gas_normal, String gas_hot_hp, String gas_hp, String gas_cold_hp, String gas_liquid, boolean addToCryoList) {
         normal_gas = gas_normal;
         hot_high_pressure_gas = gas_hot_hp;
         high_pressure_gas = gas_hp;
         cold_high_pressure_gas = gas_cold_hp;
         liquid_gas = gas_liquid;
-        cryo_gases.add(this);
+
+        if (addToCryoList) {
+            cryo_gases.add(this);
+        }
     }
 
     public void setEUt(int power) {

@@ -22,6 +22,7 @@ def BR = recipemap('batch_reactor');
 def BCR = recipemap('bubble_column_reactor');
 def CENTRIFUGE = recipemap('centrifuge');
 def SIFTER = recipemap('sifter');
+
 // Salt * 2
 mods.gregtech.centrifuge.removeByInput(30, null, [fluid('salt_water') * 1000])
 

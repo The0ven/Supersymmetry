@@ -525,5 +525,11 @@ public class UnknownCompositionMaterials {
                 .fluid()
                 .color(0xede772)
                 .build();
+
+        DirtyMolecularSieve = new Material.Builder(4101, 'dirty_molecular_sieve')
+                .dust()
+                .color(0x5c5c5c)
+                .colorAverage()
+                .build();
     }
 }
