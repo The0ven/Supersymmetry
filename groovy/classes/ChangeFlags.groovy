@@ -10,9 +10,12 @@ import gregtech.api.unification.material.info.MaterialFlag;
 import gregtech.api.unification.material.properties.*;
 import gregtech.api.unification.material.properties.OreProperty;
 import gregtech.api.unification.material.properties.PropertyKey;
+
 import static material.SuSyMaterials.*
 import gregtech.api.unification.material.properties.BlastProperty.GasTier;
 import supersymmetry.api.recipes.SuSyRecipeMaps;
+import gregtech.api.fluids.fluidType.FluidTypes;
+
 
 //eventManager.listen(EventPriority.LOWEST) 
 class ChangeFlags {

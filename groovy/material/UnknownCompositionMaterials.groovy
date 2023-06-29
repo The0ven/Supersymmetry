@@ -1047,5 +1047,34 @@ public class UnknownCompositionMaterials {
                 .dust()
                 .color(0x662e2e)
                 .build();
+
+        ImpureIlmeniteSlurry = new Material.Builder(4199, "impure_ilmenite_slurry")
+                .fluid()
+                .color(0x4a474c)
+                .build();
+
+        ImpureIlmeniteSlurry.setFormula("(H2O)(FeTiO3)(?)", true);
+
+        ImpureIlmeniteConcentrate = new Material.Builder(4200, "impure_ilmenite_concentrate")
+                .dust()
+                .color(0x4a474c).iconSet(ROUGH)
+                .build();
+
+        ImpureIlmeniteConcentrate.setFormula("(FeTiO3)(?)", true);
+
+        IlmeniteSlurry = new Material.Builder(4201, "ilmenite_slurry")
+                .fluid()
+                .color(0x6c7078)
+                .build();
+
+        IlmeniteSlurry.setFormula("(H2O)(FeTiO3)(?)", true);
+
+        TitanylSulfateSolution = new Material.Builder(4202, "titanyl_sulfate_solution")
+                .fluid()
+                .color(0x74561d)
+                .build();
+
+        TitanylSulfateSolution.setFormula("(H20)(TiO[SO4])(?)", true);
+
     }
 }

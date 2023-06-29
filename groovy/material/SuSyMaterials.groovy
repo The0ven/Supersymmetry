@@ -317,6 +317,11 @@ class SuSyMaterials {
         public static Material ReducedChromiumAnolyte;
         public static Material ChromiumCatholyte;
         public static Material ChromiumMotherLiquor;
+        public static Material ImpureIlmeniteSlurry;
+        public static Material ImpureIlmeniteConcentrate;
+        public static Material IlmeniteSlurry;
+        public static Material TitanylSulfateSolution;
+        public static Material AcidicWastewater;    
 
         // Petrochem Materials
 
@@ -753,6 +758,18 @@ class SuSyMaterials {
         public static Material IronIIHydroxide;
         public static Material IronIIOxide;
         public static Material ElectrolyticChromium;
+        public static Material TinTetrachloride;
+        public static Material ImpureTitaniumTetrachloride;
+        public static Material DistilledTitaniumTetrachloride;
+        public static Material VanadiumFreeTitaniumTetrachloride;
+        public static Material VanadiumOxydichloride;
+        public static Material VanadiumOxytrichloride;
+        public static Material RutileSlurry;
+        public static Material RutileConcentrate;
+        public static Material UltramaficTailingSlurry;
+        public static Material GaseousIronIIIChloride;
+        public static Material GaseousTitaniumTetrachloride;
+        public static Material GaseousAluminiumTrichloride;
 
         // Second Degree Materials
 
@@ -828,6 +845,7 @@ class SuSyMaterials {
         public static Material AgedAmmoniumChromeAlumSolution;
         public static Material PurifiedAmmoniumChromeAlumSolution;
         public static Material AmmoniumIronIISulfateSolution;
+
 
         // Organic Chemistry Materials
 

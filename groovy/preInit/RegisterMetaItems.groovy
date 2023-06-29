@@ -3,6 +3,9 @@ import gregtech.api.GregTechAPI;
 import gregtech.api.items.metaitem.*;
 import gregtech.api.unification.material.MarkerMaterials;
 import gregtech.api.unification.ore.OrePrefix;
+import net.minecraft.util.text.TextFormatting;
+import gregtech.common.items.behaviors.TooltipBehavior;
+
 
 eventManager.listen {
     GregTechAPI.PostMaterialEvent event ->
@@ -306,6 +309,17 @@ eventManager.listen {
 
         customMetaItems.addItem(9000, "seed.cotton");
         customMetaItems.addItem(9001, "crop.cotton");
+
+
+
+        //Materials     // this is a placeholder!!
+
+        customMetaItems.addItem(10001, "sponge.titanium").addComponents(new TooltipBehavior((lines) -> {
+            lines.add(TextFormatting.YELLOW + "Ti");
+        }));
+        customMetaItems.addItem(10002, "sponge.titanium.crude").addComponents(new TooltipBehavior((lines) -> {
+            lines.add(TextFormatting.YELLOW + "(Ti)(?)");
+        }));
 
         log.infoMC("Finished adding metaitems")
 }
