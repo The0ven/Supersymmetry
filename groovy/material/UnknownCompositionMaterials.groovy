@@ -1230,11 +1230,15 @@ public class UnknownCompositionMaterials {
 
         AcidicWastewater.setFormula("(H20)(?)", true);
 
-        DirtyMolecularSieve = new Material.Builder(4234, 'dirty_molecular_sieve')
+        DirtyMolecularSieve = new Material.Builder(4234, "dirty_molecular_sieve")
                 .dust()
                 .color(0x737373)
                 .iconSet(DULL)
                 .build();
-
+        
+        OligomericBisphenolSolution = new Material.Builder(4235, "oligomeric_bisphenol_solution")
+                .fluid()
+                .color(0xcfa532)
+                .build();
     }
 }

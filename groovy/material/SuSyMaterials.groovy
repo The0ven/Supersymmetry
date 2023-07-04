@@ -361,6 +361,7 @@ class SuSyMaterials {
         public static Material GaseousTitaniumTetrachloride;
         public static Material GaseousAluminiumTrichloride;
         public static Material DirtyMolecularSieve;
+        public static Material OligomericBisphenolSolution;
 
         // Petrochem Materials
 
@@ -812,6 +813,8 @@ class SuSyMaterials {
         public static Material DiTertButylPeroxide;
         public static Material TwoEthylhexylNitrate;
         public static Material Nitromethane;
+        public static Material SodiumBisphenolateSolution;
+        public static Material Polycarbonate;
 
         // Second Degree Materials
 
@@ -1165,6 +1168,8 @@ class SuSyMaterials {
         public static Material PotassiumIsopropylXanthateSolution;
         public static Material PotassiumEthylXanthateSolution;
         public static Material AcidicTributylPhosphate;
+        public static Material PhosgeneSolution;
+        public static Material TriethylamineSolution;
 
         // Thermodynamics/Greenhouse Materials
 
