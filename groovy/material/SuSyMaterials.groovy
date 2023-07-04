@@ -893,6 +893,7 @@ class SuSyMaterials {
         public static Material DilutedDiTertButylPeroxide;
         public static Material DilutedTwoEthylhexylNitrate;
         public static Material DilutedNitromethane;
+        public static Material DiluteAmmoniumSulfateSolution;
 
         // Organic Chemistry Materials
 
@@ -948,7 +949,7 @@ class SuSyMaterials {
         public static Material Hydroxylamine;
         public static Material DilutedCyclohexanone;
         public static Material Cyclohexanone;
-        public static Material CaprolactamOximeSolution;
+        public static Material CaprolactamSolution;
         public static Material BisphenolADiglycidylEther;
         public static Material ImpureEpoxyResin;
         public static Material UncuredEpoxyResin;
@@ -1126,6 +1127,8 @@ class SuSyMaterials {
         public static Material Ferrocene;
         public static Material Polyisoprene;
         public static Material Chloroethane;
+        public static Material NeutralizedCaprolactamSolution;
+        public static Material ExtractedCaprolactamSolution;
 
         // Third Degree Materials
 
