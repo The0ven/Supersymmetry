@@ -1,0 +1,30 @@
+name: Build
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: "Release"
+    runs-on: ubuntu-latest
+    steps:
+    - id: set_var
+      run: |
+        content=`cat ./manifest.json`
+        content="${content//'%'/'%25'}"
+        content="${content//$'\n'/'%0A'}"
+        content="${content//$'\r'/'%0D'}"
+        echo "::set-output name=packageJson::$content"
+    - run: |
+          echo "${{fromJson(steps.set_var.outputs.packageJson).version}}"
+    - name: Automatic Releases
+      uses: marvinpinto/action-automatic-releases@latest
+      with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: false
+          title: ${{ steps.set_var.outputs.version }}
+          files: |
+            buildOut/client.zip
+            buildOut/server.zip
+            buildOut/modlist.html
